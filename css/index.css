@@ -1,3 +1,11 @@
+.border-red {
+  border: 1px solid red;
+}
+.btn-style {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -191,6 +199,20 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .btn {
+  padding-left: 15px;
+  padding-top: 9px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 2rem;
+  width: 101px;
+  height: 40px;
+}
+.home .btn:hover {
+  color: black;
+  background-color: white;
 }
 .home .intro h2 {
   padding: 15px;
