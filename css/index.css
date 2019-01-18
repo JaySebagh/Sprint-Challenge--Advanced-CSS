@@ -265,3 +265,15 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .nav-menu a {
+    padding: 10px;
+    margin: 0px;
+  }
+  .sky {
+    visibility: hidden;
+  }
+  .launch {
+    visibility: hidden;
+  }
+}

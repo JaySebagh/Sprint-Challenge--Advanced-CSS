@@ -24,3 +24,19 @@
 @border-real: #dee2e6;
 
 // Mobile var
+
+@phone: ~"(max-width: 500px)";
+@media @phone {
+    .nav-menu a {
+        .spacing(10px, 0px);
+    }
+
+    .sky {
+        visibility: hidden;
+    }
+
+    .launch {
+        visibility: hidden;
+    }
+    
+}
